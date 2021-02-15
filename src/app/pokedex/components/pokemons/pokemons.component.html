@@ -1,0 +1,32 @@
+<div class="wrapper">
+
+      <div *ngIf="!filterPokemons && pokemons" class="allPokemons">
+        <div *ngFor="let p of pokemons" class="onePokemon">
+          <app-pokemon  [pokemon]="p"></app-pokemon>
+        </div>
+      </div>
+      <div *ngIf="filterPokemons" class="allPokemons">
+        <div *ngFor="let p of filterPokemons" class="onePokemon">
+          <app-pokemon  [pokemon]="p"></app-pokemon>
+        </div>
+      </div>
+
+
+    <button *ngIf="pokemonService.pokemonShow &&!filterPokemons" class="loadMore" (click)="load()">Load more</button>
+
+  <div class="info">
+    <router-outlet></router-outlet>
+  </div>
+
+
+  <div class="filter">
+    <div class="logo">
+      FILTER
+    </div>
+    <div class="types" *ngIf="!filterPokemons && pokemons">
+      <div *ngFor="let t of types" class="type" ><button (click)="filter(t.name)" class="typeButton">{{t.name}}</button></div>
+    </div>
+    <button  *ngIf="filterPokemons" (click)="clearFilteredPokemons()" class="typeButton">all</button>
+  </div>
+</div>
+

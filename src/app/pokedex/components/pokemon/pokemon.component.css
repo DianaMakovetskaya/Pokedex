@@ -1,0 +1,25 @@
+img{
+  width: 100px;
+  height: 100px;
+}
+.pokemon{
+  border: 2px black solid;
+  padding: 5px 5px 25px;
+}
+.image{
+  margin: 8px;
+}
+.name{
+  font-weight: bold;
+  text-align: center;
+}
+.typeName{
+  border-radius: 5px;
+  margin-right: 5px;
+  background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+  font-size: 20px;
+}
+.types{
+  display: flex;
+  margin-top: 5px;
+}

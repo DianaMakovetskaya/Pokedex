@@ -1,0 +1,55 @@
+.allPokemons{
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.loadMore{
+  margin-top: 20px;
+  color: white;
+  background-color: deepskyblue;
+  border-radius: 15px;
+  width: 30%;
+  height: 50px;
+  border: 0.5px black solid;
+  font-weight: bold;
+  font-size: 18px;
+}
+.onePokemon{
+  width: 30%;
+  margin-bottom: 4%;
+}
+
+
+.info{
+  position: fixed;
+  top: 30%;
+  left: 32%;
+  width: 15%;
+
+}
+
+.types{
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px black solid;
+}
+.type{
+ margin-right: 5px;
+}
+.filter{
+  width: 40%;
+  position: absolute;
+  top: 7%;
+  right: 0;
+}
+.logo{
+  text-align: center;
+}
+
+.typeButton{
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  height: 40px;
+  border-radius: 5px;
+}
+

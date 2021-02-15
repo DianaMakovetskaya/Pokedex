@@ -1,0 +1,27 @@
+<div class="wrapper" *ngIf="pokemon && pokemonService.pokemonShow">
+  <div class="pokemonInfo">
+    <div class="image">
+      <img src="https://pokeres.bastionbot.org/images/pokemon/{{pokemon.id}}.png" alt="image">
+    </div>
+    <div class="name">
+      {{pokemon.name}}
+    </div>
+    <table>
+      <tr>
+        <td>Type</td>
+        <td>{{pokemon.types[0].type.name}}</td>
+      </tr>
+
+      <tr>
+        <td>Weight</td>
+        <td>{{pokemon.weight}}</td>
+      </tr>
+
+      <tr>
+        <td>Total moves</td>
+        <td>{{pokemon.moves.length}}</td>
+      </tr>
+    </table>
+  </div>
+</div>
+

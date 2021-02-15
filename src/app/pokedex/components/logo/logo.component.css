@@ -1,0 +1,10 @@
+.logo{
+  border: 2px black solid;
+  text-align: center;
+  box-sizing: border-box;
+  width: fit-content;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 0 95px;
+  margin: auto;
+}

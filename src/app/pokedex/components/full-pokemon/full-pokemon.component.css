@@ -1,0 +1,22 @@
+
+.wrapper{
+    border: 1px black solid;
+  padding: 10px;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+
+.name{
+  font-weight: bold;
+  text-align: center;
+}
+
+table, td,tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table{
+  width: 100%;
+}
