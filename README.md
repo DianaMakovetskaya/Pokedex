@@ -18,6 +18,9 @@ With the help of this site you can see a list of Pokémons. When you click on a 
   - JavaScript
 ## Screenshots
 ![Example screenshot](./pokedex_img1.png)
+Pokemon Charizard is chosen
+![Example screenshot](./pokedex_img2.png)
+
 ## Setup
 
 You can open this project in any environment that supports JavaScript, HTML, CSS ... For example: Webstorm, IntelijIdea.
