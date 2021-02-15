@@ -20,6 +20,8 @@ With the help of this site you can see a list of Pokémons. When you click on a 
 ![Example screenshot](./pokedex_img1.png)
 Pokemon Charizard is chosen
 ![Example screenshot](./pokedex_img2.png)
+Filter by type "normal"
+![Example screenshot](./pokedex_img3.png)
 
 ## Setup
 
