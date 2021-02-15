@@ -47,7 +47,7 @@
   text-align: center;
 }
 
-.typeButton{
+.typeButton,.allPokemonsButton{
   background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
   height: 40px;
   border-radius: 5px;

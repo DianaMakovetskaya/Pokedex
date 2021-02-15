@@ -26,7 +26,7 @@
     <div class="types" *ngIf="!filterPokemons && pokemons">
       <div *ngFor="let t of types" class="type" ><button (click)="filter(t.name)" class="typeButton">{{t.name}}</button></div>
     </div>
-    <button  *ngIf="filterPokemons" (click)="clearFilteredPokemons()" class="typeButton">all</button>
+    <button  *ngIf="filterPokemons" (click)="clearFilteredPokemons()" class="allPokemonsButton">all</button>
   </div>
 </div>
 
